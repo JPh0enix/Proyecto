@@ -1,0 +1,56 @@
+/* Estilo.css */
+/* Cuerpo */
+body {
+ background-color: black;
+ color: #FFFFFF;
+/* Títutlos y sub-títulos */
+}
+h1 {
+ color: #990000;
+ text-align: center;
+ text-decoration: underline #990000;
+ font: italic 200% fantasy;
+}
+h2 {
+ color: #990000;
+ text-align: left;
+ text-decoration: underline #990000;
+ font: italic 150% fantasy;
+}
+h3 {
+ color: #990000;
+ text-align: center;
+ font: italic 100% fantasy;
+}
+/* Párrafo */
+p {
+ color: white;
+ text-align: left;
+ font: 120% fantasy;
+}
+/* Menú, la clase "active" resalta la sección actual */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: orange;
+}
+.active {
+    background-color: #990000;
+}
